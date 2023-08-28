@@ -2,7 +2,7 @@
 #define TILEAIR_H
 #include "Tile.h"
 
-class TileAir :
+class TileAir : Tile
 {
     public:
         TileAir();

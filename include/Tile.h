@@ -1,18 +1,17 @@
 #ifndef TILE_H
 #define TILE_H
-
+#include <SFML/Graphics.hpp>
 
 class Tile
 {
     public:
 
-
-    private:
+    protected:
         int m_PosX;
         int m_PosY;
         sf::Sprite* m_Sprite;
         unsigned int m_Health;
-        bool isSolid;
+        bool m_IsSolid;
 };
 
 #endif // TILE_H

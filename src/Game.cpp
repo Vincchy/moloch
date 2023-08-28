@@ -1,11 +1,6 @@
 #include "Game.h"
 
-Game::Game()
+void Game::Init(sf::Window& window)
 {
-    //ctor
-}
-
-Game::~Game()
-{
-    //dtor
+    m_Window = &window;
 }

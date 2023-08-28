@@ -1,11 +1,3 @@
 #include "Entity.h"
 
-Entity::Entity()
-{
-    //ctor
-}
-
-Entity::~Entity()
-{
-    //dtor
-}
+sf::Sprite Entity::GetSprite() { return m_Sprite; }
